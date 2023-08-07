@@ -35,7 +35,7 @@ const ContactForm = () => {
   return (
 
     <FormContainer onSubmit={handleSubmit(onSubmit)}>
-      <h1>Entre em Contato</h1>
+      <h2>Entre em Contato</h2>
       <FormGroup>
         <Controller
           name="firstName"

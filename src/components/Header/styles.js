@@ -17,6 +17,11 @@ export const Logo = styled.div`
   font-weight: bold;
   color: rgb(122, 23, 220);
   margin-right: 1rem;
+
+  @media (max-width: 900px) {
+    font-size: 1.5rem;
+  }
+
 `;
 
 export const Links = styled.div`
@@ -34,6 +39,13 @@ export const Links = styled.div`
       color: #555;
     }
   }
+
+  @media (max-width: 900px) {
+    a {
+      font-size: 16px;
+    }
+  }
+
 `;
 
 export const Banner = styled.img`

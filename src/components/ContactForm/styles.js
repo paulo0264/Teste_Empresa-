@@ -2,18 +2,22 @@ import styled from 'styled-components';
 
 export const FormContainer = styled.form`
   width: 100%;
-  max-width: 500px;
-  margin-bottom: 50px;
+  
   
   /* border: 1px solid #ccc;
   border-radius: 8px; */
 
-  h1 {
-    margin-bottom: 20px;
+  h2 {
+    margin-left: 0;
     font-size: 30px;
     font-family: Inter;
   }
   
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 18px;
+    }
+  }
 `;
 
 export const FormGroup = styled.div`
@@ -30,7 +34,7 @@ export const FormGroup = styled.div`
     background: #F2F2F2;
     padding: 0.8rem;
     font-family: Inter;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 `;
 
@@ -48,7 +52,7 @@ export const Input = styled.input`
   background: #F2F2F2;
   padding: 0.8rem;
   font-family: Inter;
-  font-size: 1.25rem;
+  font-size: 1rem;
 `;
 
 export const ErrorMessage = styled.p`

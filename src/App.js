@@ -54,12 +54,11 @@ function App() {
       <div className='form'>
         <ContactForm />
         <h3>MARKET</h3>
+        {/* <h3>MAR</h3>
+        <h3>KET</h3> */}
       </div>
     </>
-
-
   );
 }
-
 
 export default App;
